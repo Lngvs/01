@@ -1,0 +1,105 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+body {
+  background-color: rgb(88, 88, 88);
+  width: 100vw;
+}
+
+header {
+  width: 100%;
+}
+header nav {
+  background-color: rgb(0, 0, 0);
+}
+header nav ul {
+  margin: 0 auto;
+  width: 50%;
+}
+header nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  border-right: solid white 1px;
+  line-height: 40px;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+}
+
+main {
+  width: 50%;
+  text-align: center;
+  margin: 50px auto;
+}
+main article {
+  background-color: white;
+  text-align: left;
+  margin: 10px;
+}
+main article h1 {
+  padding: 10px;
+  font-weight: bold;
+}
+main article span {
+  display: inline-block;
+  padding: 10px;
+}
+
+div {
+  font-size: 0;
+  width: 100%;
+}
+div section {
+  width: 50%;
+  display: inline-block;
+  font-size: 12px;
+}/*# sourceMappingURL=styles.css.map */
